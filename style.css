@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    margin: 8px 0 ;
+}
+
+.botao_de_jogo {
+    border: none;
+    background: #283593;
+    color: white;
+    height: 70px;
+    width: 70px;
+    font-size: 38px;
+
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+.botao_de_jogo:hover {
+    background: #3949AB;
+}
+
+.botao_de_jogo:active {
+    background: #1A237E;
+}
+
+.botao_de_jogo:disabled {
+    background: #424242;
+}
+
+.jogo {
+    margin: 20px 0;
+}

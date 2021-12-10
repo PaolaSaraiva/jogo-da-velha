@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span>O jogador atual é: <span id="jogador"></span></span>
+
+    <table class="jogo">
+        <tr>
+            <th><button class="botao_de_jogo" id="botao0x0" onclick="fazerJogada(0,0)">-</button></th>
+            <th><button class="botao_de_jogo" id="botao0x1" onclick="fazerJogada(0,1)">-</button></th>
+            <th><button class="botao_de_jogo" id="botao0x2" onclick="fazerJogada(0,2)">-</button></th>
+        </tr>
+        <tr>
+            <th><button class="botao_de_jogo" id="botao1x0" onclick="fazerJogada(1,0)">-</button></th>
+            <th><button class="botao_de_jogo" id="botao1x1" onclick="fazerJogada(1,1)">-</button></th>
+            <th><button class="botao_de_jogo" id="botao1x2" onclick="fazerJogada(1,2)">-</button></th>
+        </tr>
+        <tr>
+            <th><button class="botao_de_jogo" id="botao2x0" onclick="fazerJogada(2,0)">-</button></th>
+            <th><button class="botao_de_jogo" id="botao2x1" onclick="fazerJogada(2,1)">-</button></th>
+            <th><button class="botao_de_jogo" id="botao2x2" onclick="fazerJogada(2,2)">-</button></th>
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
